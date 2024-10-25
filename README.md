@@ -11,12 +11,6 @@ https://usn.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9105f8d-2a91-497a-ac1
 Using Fusion 360 to model, render and animate a manufacturing assemblyline  
 https://youtu.be/x5Itn2_uIXw
 
-## Project overview
+Hackathon project with Kongsberg Maritime visualizing AIS data in articulated reality with Meta Quest VR headset. Developed with Unity  
+https://usn.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3be3846-198f-461a-84e0-b21400d4c06f
 
-Group Project - Implementation of multiple devices - Folder overview:  
-  
-RaspberryServer - .NET Core 3.1 Application running on Raspberry Pi with data collection from arduino through serial, 
-socket communication through local network to .NET Forms Application on client PC, and connection to Azure SQL server    
-Raspberry_Serial - Arduino script for communication with Raspberry Pi and control of LED diodes connected to digital pins, 
-and temperature sensor connected to analog pin    
-RaspberryServerClientForm - .NET Forms Application acting as a GUI for the system
