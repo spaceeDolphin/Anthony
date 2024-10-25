@@ -1,0 +1,50 @@
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.exe
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.deps.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.runtimeconfig.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.Form1.resources
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.GenerateResource.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\refint\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ref\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.AssemblyReference.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.CopyComplete
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.dll.config
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\ReaderApp\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.exe
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.dll.config
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.deps.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.runtimeconfig.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\ReaderApp.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.AssemblyReference.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.Form1.resources
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.GenerateResource.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.csproj.CopyComplete
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\refint\ReaderApp.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ReaderApp.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\OBJ2 Prosjekt\ReaderApp\obj\Debug\net7.0-windows\ref\ReaderApp.dll

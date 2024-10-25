@@ -1,0 +1,63 @@
+﻿@using System.Data.SqlClient;
+@{
+    ViewData["Title"] = "Statistics";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Recent bikes you unlocked</h2>
+<p></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date & Time</th>
+            <th>Parking Zone</th>
+            <th>Bike</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            string key = ViewData["myKey"].ToString();
+            String databaseConfig = "Data Source=localhost\\sqlexpress;Initial Catalog=BikeShareDatabase;Integrated Security=True";
+            String sqlQuery = $"Exec GetBikeUnlocks @tagId = '{key}';";
+            List<BikeUnlock> bikeUnlocks = new List<BikeUnlock>();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(databaseConfig))
+                {
+                    conn.Open();
+                    using (SqlCommand command = new SqlCommand(sqlQuery, conn))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                BikeUnlock bikeUnlock = new BikeUnlock();
+                                bikeUnlock.unlockTime = reader.GetDateTime(0).ToString();
+                                bikeUnlock.stationName = reader.GetString(1);
+                                bikeUnlock.bikeName = reader.GetString(2);
+                                bikeUnlocks.Add(bikeUnlock);
+                            }
+                        }
+                    }
+                    conn.Close();
+
+                }
+            }
+            catch (Exception ex) { }
+        }
+        @foreach(var item in bikeUnlocks)
+        {
+            <tr>
+                <td>@item.unlockTime</td>
+                <td>@item.stationName</td>
+                <td>@item.bikeName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <p>Registrations with RFID Tag with key @key</p>
+</div>
+

@@ -1,0 +1,91 @@
+CREATE PROCEDURE InsertTag @tagId VARCHAR(30), @tagColor VARCHAR(30), @tagText VARCHAR(30) AS
+INSERT INTO TAG
+VALUES (@tagId, @tagColor, @tagText)
+
+CREATE PROCEDURE DeleteTag @tagId VARCHAR(30) AS
+DELETE FROM USER_TAG WHERE UserKey = @tagId
+DELETE FROM BIKE_UNLOCK WHERE TagId = @tagId
+DELETE FROM BIKE_LOCK WHERE TagId = @tagId
+DELETE FROM TAG WHERE TagId = @tagId
+
+DROP PROCEDURE DeleteTag
+
+CREATE PROCEDURE InsertLock @stationId int, @tagId VARCHAR(30), @bikeId int AS
+INSERT INTO BIKE_LOCK 
+VALUES (GETDATE(), @stationId, @tagId, @bikeId)
+
+CREATE PROCEDURE InsertUnlock @stationId int, @tagId VARCHAR(30), @bikeId int AS
+INSERT INTO BIKE_UNLOCK 
+VALUES (GETDATE(), @stationId, @tagId, @bikeId)
+
+CREATE PROCEDURE UpdateLock @bikeId int, @lockStatus VARCHAR(10) AS
+UPDATE BIKE
+SET LockStatus = @lockStatus
+WHERE BikeId LIKE @bikeId
+
+Exec UpdateLock @bikeId = 1, @lockStatus = 'Unlocked'
+
+DELETE FROM BIKE_UNLOCK
+DROP TABLE BIKE_USER
+DROP TABLE USER_TAG
+
+--used in BikeOS
+SELECT StationId, StationName FROM BIKE_STATION
+SELECT BikeId, BikeName FROM BIKE
+
+--used in Manager
+CREATE VIEW ViewRegisteredTags AS
+SELECT TagId AS [RFID], TagColor AS Farge, TagText AS [Type], Email AS Bruker
+FROM USER_TAG AS UT 
+RIGHT JOIN TAG
+ON TAG.TagId = UT.UserKey
+LEFT JOIN AspNetUsers AS U
+ON U.Id = UT.UserId
+
+SELECT * FROM ViewRegisteredTags
+
+
+
+--used in web app
+SELECT TOP 1 BS.StationId
+FROM BIKE_LOCK AS BL, BIKE_STATION AS BS
+WHERE BS.StationId = BL.StationId
+AND BikeId = 1
+ORDER BY LockTime DESC
+
+SELECT TOP 1 LockTime
+FROM BIKE_LOCK
+WHERE BikeId = 1
+ORDER BY LockTime DESC
+
+CREATE PROCEDURE GetBikeUnlocks @tagId VARCHAR(30) AS
+SELECT BU.UnlockTime, BS.StationName, BIKE.BikeName
+FROM BIKE_UNLOCK AS BU, BIKE, BIKE_STATION AS BS
+WHERE BIKE.BikeId = BU.BikeId
+AND BS.StationId = BU.StationId
+AND BU.TagId = @tagId
+ORDER BY BU.UnlockTime DESC
+
+Exec GetBikeUnlocks @tagId = '142E37CF';
+DROP PROCEDURE GetBikeUnlocks
+
+CREATE PROCEDURE InsertUserTag @userId nvarchar(450), @userKey VARCHAR(30) AS
+INSERT INTO USER_TAG
+VALUES (@userId, @userKey)
+
+CREATE TABLE USER_TAG (
+	Id int IDENTITY(1,1) PRIMARY KEY,
+	UserId nvarchar(450) UNIQUE,
+	UserKey VARCHAR(30) UNIQUE,
+	CONSTRAINT FK_USER_TAG_USER FOREIGN KEY (UserId)
+	REFERENCES AspNetUsers (Id),
+	CONSTRAINT FK_USER_TAG_TAG FOREIGN KEY (UserKey)
+	REFERENCES TAG (TagId)
+)
+
+DELETE FROM USER_TAG
+DROP TABLE USER_TAG
+DROP PROCEDURE InsertUserTag
+
+SELECT UserKey FROM USER_TAG
+WHERE UserId LIKE '7d33d1b0-a56d-40ea-815a-6d5d82d703dc'

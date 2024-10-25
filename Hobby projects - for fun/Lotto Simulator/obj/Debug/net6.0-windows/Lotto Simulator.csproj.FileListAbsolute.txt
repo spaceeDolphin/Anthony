@@ -1,0 +1,33 @@
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.exe
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.deps.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.runtimeconfig.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.csproj.AssemblyReference.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto_Simulator.Form1.resources
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.csproj.GenerateResource.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\refint\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Lotto Simulator\obj\Debug\net6.0-windows\ref\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.exe
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.deps.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.runtimeconfig.json
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\bin\Debug\net6.0-windows\Lotto Simulator.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto_Simulator.Form1.resources
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.csproj.GenerateResource.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\refint\Lotto Simulator.dll
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.pdb
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\Lotto Simulator.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Skrivebord\Visual Studio Projects\Private\Lotto Simulator\obj\Debug\net6.0-windows\ref\Lotto Simulator.dll

@@ -1,0 +1,54 @@
+﻿@model BikeShareWeb.Models.UserTag
+@{
+    ViewData["Title"] = "Connect";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .form-label {
+        padding-right: 10px; /* Add right padding to the label cell */
+        text-align: right; /* Right-align the label text */
+    }
+
+    .form-input {
+        padding: 5px; /* Add padding to the input cell */
+    }
+
+    .form-button {
+        padding-top: 10px; /* Add top padding to the button cell */
+    }
+
+    .blue-button {
+        background-color: #3498db; /* Lighter blue color */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px; /* Adjust the value for roundness */
+        cursor: pointer;
+    }
+</style>
+
+<div class="jumbotron mt-3">
+    <h1>Connect to RFID-tag</h1>
+    <p class="lead">UserID : @ViewData["UserID"]</p>
+    <p>@ViewData["CommandResult"]</p>
+</div>
+
+<div>
+    @using(Html.BeginForm("Connect", "Home", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Register RFID Tag</th>
+            </tr>
+            <tr>
+                <td class="form-label">RFID Key:</td>
+                <td class="form-input">@Html.TextBoxFor(m => m.UserKey)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="form-button"><input type="submit" value="Submit" class="blue-button"/></td>
+            </tr>
+        </table>
+    }
+</div>

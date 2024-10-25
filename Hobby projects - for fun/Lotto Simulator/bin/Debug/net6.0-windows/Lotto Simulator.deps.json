@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lotto Simulator/1.0.0": {
+        "runtime": {
+          "Lotto Simulator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lotto Simulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
