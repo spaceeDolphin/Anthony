@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = RaspberryServertest
+build_property.ProjectDir = C:\TSE3110_Group_4_Raspberry\RaspberryServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
