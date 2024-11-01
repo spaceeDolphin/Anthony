@@ -14,3 +14,5 @@ https://youtu.be/x5Itn2_uIXw
 Hackathon project with Kongsberg Maritime visualizing AIS data in articulated reality with Meta Quest VR headset. Developed with Unity  
 https://usn.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3be3846-198f-461a-84e0-b21400d4c06f
 
+First C++ project: translating words to morse code and displaying with led diode  
+https://usn.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c915b0ff-2488-4ef0-b129-b21b01524c1e
